@@ -95,17 +95,6 @@ new Swiper('.notice .promotion .swiper', {
   }
 });
 
-// AWARDS
-new Swiper('.awards .swiper', {
-  autoplay: true,
-  loop: true,
-  spaceBetween: 30,
-  slidesPerView: 5,
-  navigation: {
-    nextEl: '.swiper-next',
-    prevEl: '.swiper-prev'
-  }
-});
 
 /* 헤더 메인메뉴 영역 토글
 const mainMenuEl = document.querySelector(".header .main-menu");

@@ -18,6 +18,18 @@ searchInputEl.addEventListener('blur', function () {
   searchInputEl.setAttribute('placeholder', '');
 });
 
+/* ==========AWARDS SWIPER============= */
+
+new Swiper('.awards .swiper', {
+  autoplay: true,
+  loop: true,
+  spaceBetween: 30,
+  slidesPerView: 5,
+  navigation: {
+    nextEl: '.swiper-next',
+    prevEl: '.swiper-prev'
+  }
+});
 
 /* =========FOOTER 현재 연도 반환============== */
 const thisYear = document.querySelector('.this-year');
